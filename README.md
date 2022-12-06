@@ -3,9 +3,9 @@
 ### This project has the following features: 
 ### Installation:
 ### Usage:
-###### Walkthrough Video:
+### Walkthrough Video:
 ### Bugs:
 ### Final Thoughts:
-###### Biggest struggle:
-###### Extra-info:
-Link to site:
+### Biggest struggle:
+### Extra-info:
+### Link to site:
