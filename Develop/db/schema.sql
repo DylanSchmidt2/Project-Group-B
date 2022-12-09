@@ -1,3 +1,0 @@
-DROP DATABASE IF EXISTS cooking_db;
-
-CREATE DATABASE cooking_db
