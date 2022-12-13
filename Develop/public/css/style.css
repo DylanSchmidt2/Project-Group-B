@@ -1,0 +1,33 @@
+body
+{
+background-size: cover;
+}
+
+h1 {
+    margin-left: 5%;
+    font-size: 50px;
+    color: darkred;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: wheat;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: white;
+    
+}
+
+.pure-form-message-inline
+{
+    color: white;
+}
