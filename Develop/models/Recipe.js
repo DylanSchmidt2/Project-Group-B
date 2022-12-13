@@ -1,5 +1,5 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Recipe extends Model {}
 
@@ -15,14 +15,22 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    
+    ingredients: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
+    description: {
+      type: DataTypes.STRING,
+      allowNull: true
+    }
+  },
+
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'recipe',
+    modelName: "recipe",
   }
 );
 
