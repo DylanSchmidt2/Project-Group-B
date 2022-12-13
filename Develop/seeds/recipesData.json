@@ -141,6 +141,92 @@
 
     },
 
+    {
+
+        "title": "French Toast",
+
+        "ingredients": "milk, large eggs, vanilla extract, ground cinnamon, salt to taste, bread, unsalted butter",
+
+        "description": "Whisk milk, eggs, vanilla, cinnamon, and salt together in a shallow bowl. Lightly butter a griddle and heat over medium-high heat. Dunk bread in the egg mixture, soaking both sides. Transfer to the hot skillet and cook until golden, 3 to 4 minutes per side. Serve hot."
+
+    },
+
+    {
+
+        "title": "Beef Stew",
+
+        "ingredients": "stewing beef, flour, garlic powder, salt, black pepper, olive oil, onion, beef broth, red wine optional, potatoes, carrots, celery, tomato paste, dried rosemary or sprig fresh, cornstarch, water, peas",
+
+        "description": "Combine flour, garlic powder and salt & pepper. Toss beef in flour mixture. Heat olive oil in a large Dutch oven or pot. Cook the beef and onions until browned. Add beef broth and red wine while scraping up any brown bits in the pan. Stir in all remaining ingredients except for peas, cornstarch and water. Reduce heat to medium low, cover and simmer 1 hour or until beef is tender. Mix equal parts cornstarch and water to create a slurry. Slowly add the slurry to the boiling stew to reach desired consistency. Stir in peas and simmer 5-10 minutes before serving . Season with salt & pepper to taste."
+
+    },
+
+    {
+
+        "title": "Roast Beef",
+
+        "ingredients": "round roast, extra-virgin olive oil, garlic, minced, chopped fresh rosemary, chopped fresh thyme leaves, kosher salt, freshly ground black pepper",
+
+        "description": "let roast sit uncovered on a wire rack set in a baking sheet in the refrigerator 1 hour, up to overnight. Preheat oven to 450°. In a small bowl, combine oil, garlic, rosemary, thyme, salt, and pepper. Rub all over roast. Place roast in roasting pan fitted with a roasting rack. Roast for 15 minutes, then reduce heat to 325° and roast 1 hours 45 minutes more for medium, or 2 hours for medium well done. Remove from oven and let rest 15 to 30 minutes before serving."
+
+    },
+
+    {
+
+        "title": "Beef Stroganoff",
+
+        "ingredients": "wide egg noodles, butter, thinly-sliced steak, fine sea salt and freshly-cracked black pepper, white onion, sliced mushrooms, garlic, dry white wine, beef stock, Worcestershire sauce, all-purpose flour, plain Greek yogurt, chopped fresh parsley (optional)",
+
+        "description": "Cook egg noodles in a large stockpot of generously-salted water until they are al dente then drain. As your pasta water is coming to a boil, melt butter in a large sauté pan over medium-high heat. Add the steak in a single layer, season with salt and pepper, and let it cook to get a good sear. Flip the steak, and cook on the other side until browned, another 2-3 minutes. Then remove steak from pan with a slotted spoon, transfer to a clean plate, and set aside. If your pan is not big enough to fit all of the steak in a single layer, cook half of the steak in butter. Add butter to the sauté pan. Once it has melted, add the onions and sauté for about 3 minutes. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft. Add garlic and sauté for 1 minute, stirring occasionally. Then add the white wine and deglaze the pan by using your cooking spoon to scrape the brown bits off the bottom of the pan. Let the mixture cook down for an additional 3 minutes. While the wine cooks down, whisk together the beef stock, Worcestershire sauce and flour until smooth in a separate bowl. Pour the beef stock mixture into the sauté pan, stir to combine, then let the mixture simmer for 5 minutes, stirring occasionally. Stir in the Greek yogurt and cooked steak until combined. Serve warm over egg noodles."
+
+    },
+
+    {
+
+        "title": "Baked Salmon",
+
+        "ingredients": "whole salmon fillet skin-on preferred, melted butter OR olive oil, cloves garlic minced, brown sugar, Italian seasoning, ground paprika, garlic powder, salt",
+
+        "description": "Heat oven to 375°F. Place a large piece of foil on rimmed baking sheet, place salmon fillet on top skin side down, pink side up. Crimp edges of foil around salmon. Combine melted butter and minced garlic. Brush half of mixture over salmon. Combine remaining ingredients in a small bowl, evenly sprinkle over salmon. Add remaining garlic butter. Bake salmon for 15-22 minutes, depending on preferred doneness. Once done, remove salmon from oven and rest for 5 minutes, then serve."
+
+    },
+
+    {
+
+        "title": "Hot Wings",
+
+        "ingredients": "Chicken wings separated at joints tips discarded, unsalted butter, hot pepper hot sauce, garlic powder, Salt",
+
+        "description": "Heat oven to 400 degrees F. Set a wire rack inside a large rimmed baking sheet. Season wings with salt. Spread out in one layer on wire rack. Bake until cooked through and crispy. Melt butter in a saucepan over medium heat. Remove saucepan from the heat, and then stir in hot sauce and garlic powder. Season with salt, to taste. Toss the baked chicken wings in the sauce and serve with celery."
+
+    },
+
+    {
+
+        "title": "Denver Scramble",
+
+        "ingredients": "butter or olive oil, diced ham or prosciutto, onion, bell pepper, egg beaten, salt, black pepper",
+        
+        "description": "In a large skillet over medium high heat. Add the onion, stir in the ham or prosciutto as well as the bell pepper. Add the eggs, season to taste with salt and pepper. Once the eggs start to turn white around the edges, stir the eggs to scramble. Continue to cook and stir until the eggs are cooked to your preference."
+        
+    },
+
+    {
+
+        "title": "Maghmour",
+
+        "ingredients": "fresh plum tomatoes cubed, cloves garlic chopped, onion sliced, chopped cilantro fresh only, black pepper, 7 spice, cinnamon powder, salt, chickpeas, baby okra fried, eggplant cubed and fried, tomato puree sauce, tomato paste, green bell pepper cubed, water, olive oil",
+
+        "description": "In a skillet, heat the olive oil and caramelized the sliced onions. Add the tomatoes, cilantro and garlic. Sauté for a few minute and then cover and simmer for about 5 minutes on medium-low heat. Add in the tomato paste, tomato puree sauce, salt, spice and water. Mix well and cover to simmer for another 5 minutes. Remove the tomato sauce from the heat and pour into a baking dish. Place the rest of the ingredients on top of the sauce, spreading them around even. Cover with aluminum foil and bake the dish in a preheated 375 degree oven for 30 minutes."
+
+    },
+
+    {
+        "title": "",
+        "ingredients": "",
+        "description": ""
+    },
+
 ] 
 
  
