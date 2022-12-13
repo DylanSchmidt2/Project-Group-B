@@ -17,12 +17,14 @@ h3 {
     margin-right: 5%;
     color: wheat;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+
 }
 
 form {
     display: flex;
     justify-content: center;
     margin-top: 5%;
+
     color: white;
     
 }
@@ -31,3 +33,4 @@ form {
 {
     color: white;
 }
+
