@@ -6,20 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
         integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
-    <link type="text/css" href="./public/style.css" rel="stylesheet" title="alternate">
+    <link type="text/css" href="/css/style.css" rel="stylesheet" title="alternate">
     <title> COOK. FEAST. REPEAT!</title>
 </head>
 
-<body>
+<body style= "background-image: url('/images/Collage.png');">
     <header>
         <h1> COOK FEAST REPEAT!</h1>
-        <h3> This is where a brief description of the website will appear.</h3>
+        <h3> Welcome! We created this website so guests can browse through our collection of delicious recipes and find
+            cooking inspiration. Additionally, recipes can be saved for future reference and edits can be written for a
+            personalized touch. Our community is open to home cooks and professional chefs alike. Happy cooking, and
+            more importantly, happy eating!</h3>
         {{#if logged_in}}
         <nav>
-            <button class="btn" id="logout">logout</button>
+            <button class="btn" id="logout">Logout</button>
         </nav>
+        {{/if}}
     </header>
     <main>
-
+        {{{ body }}}
     </main>
+    <footer>
+
+    </footer>
+    {{#if logged_in}}
+    <script src="/Develop/public/js/logout.js"></script>
+    {{/if}}
+
+</body>
+
+</html>
 
