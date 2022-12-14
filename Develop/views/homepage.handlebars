@@ -1,6 +1,29 @@
-{{#each recipe as |recipe| }}
-<div> {{recipe.title}} </div>
-<div> {{recipe.ingredients}} </div>
-<div> {{recipe.description}} </div>
-{{/each }}
+<h2>Create an account</h2>
 
+<form class="signup-form pure-form pure-form-aligned">
+            <fieldset>
+                <div class="pure-control-group">
+                    <label for="aligned-name">Email Address</label>
+                    <input type="text" id="aligned-name" class="email-signup" placeholder="Email" />
+                    <span class="pure-form-message-inline">This is a required field.</span>
+                </div>
+                <div class="pure-control-group">
+                    <label for="aligned-password">Username</label>
+                    <input type="text" id="aligned-password" class= "name-signup"  placeholder="Username" />
+                </div>
+                <div class="pure-control-group">
+                    <label for="aligned-email">Password</label>
+                    <input type="password" id="aligned-email" class="password-signup" placeholder="Password" />
+                </div>
+                {{!-- <div class="pure-control-group">
+                    <label for="aligned-foo">Confirm Password</label>
+                    <input type="password" id="aligned-foo" placeholder="Confirm Password" />
+                </div> --}}
+                <div class="pure-controls">
+                    <button type="Create" class="pure-button pure-button-primary"
+                        style="background-color: #6f1a07;">Create</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <script src="/js/signup.js"></script>

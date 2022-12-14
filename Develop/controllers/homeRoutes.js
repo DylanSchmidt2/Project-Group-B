@@ -59,7 +59,7 @@ router.get("/", (req, res) => {
     ]
   })
   .then(dbRecipeData => {
-    console.log('dbRecipeData', dbRecipeData)
+    //console.log('dbRecipeData', dbRecipeData)
     const recipe = dbRecipeData.map(recipe => recipe.get({ plain: true }));
     res.render('homepage', {
         recipe,

@@ -2,7 +2,7 @@ const sequelize = require('../config/connection');
 const { User, Recipe } = require('../models');
 
 const userData = require('./userData.json');
-const recipeData = require('./recipeData.json');
+const recipeData = require('./recipesData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
