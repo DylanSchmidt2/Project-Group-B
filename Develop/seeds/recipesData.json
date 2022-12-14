@@ -47,7 +47,11 @@
 
         "ingredients": "popcorn kernels, Oil", 
 
+
+        "description": "Stovetop method - Add the oil to a large saucepan and add two kernels to it, cover it, and place it over medium heat. Let the oil heat up for 1-2 minutes, or until the kernels have popped. Once they have popped, remove the saucepan off the heat. Add the remaining kernels and shake the saucepan so the kernels distribute evenly. Add the lid back on and place it back over medium heat. Let the kernels pop and once the popping is less consistent, remove the saucepan off the heat and transfer the freshly popped popcorn into a bowl. Microwave method - Add the popcorn kernels to a brown paper bag. Carefully fold the top twice, to ensure it does not open up during the popping process. Place the bag in the microwave and microwave for 2-3 minutes, or until the popping becomes inconsistent. Remove the bag from the microwave and let it sit for 30 seconds, for any extra kernels to pop. Transfer it into a bowl and season. Air popper method - Add kernels to the air popper and cook as per instructions." 
+
         "description": "Stovetop method - Add the oil to a large saucepan and add two kernels to it, cover it, and place it over medium heat. Let the oil heat up for 1-2 minutes, or until the kernels have popped. Once they have popped, remove the saucepan off the heat. Add the remaining kernels and shake the saucepan so the kernels distribute evenly. Add the lid back on and place it back over medium heat. Let the kernels pop and once the popping is less consistent, remove the saucepan off the heat and transfer the freshly popped popcorn into a bowl. Microwave method - Add the popcorn kernels to a brown paper bag. Carefully fold the top twice, to ensure it does not open up during the popping process. Place the bag in the microwave and microwave for 2-3 minutes, or until the popping becomes inconsistent. Remove the bag from the microwave and let it sit for 30 seconds, for any extra kernels to pop. Transfer it into a bowl and season. Air popper method - Add kernels to the air popper and cook as per description." 
+
 
     }, 
 
@@ -109,6 +113,126 @@
 
         "description": "In a deep, 10-inch cast-iron skillet or heavy saucepan, heat oil to 350 F deep-fry thermometer to attach to the pan, combine flour, baking powder, and salt in a bowl. Mix well to blend. Baking powder being added to flour in a wooden bowl. Add milk and stir until the dough holds together. Milk added to flour mixture and being stirred with a metal spoon to hold mixture together. Knead 3 or 4 times on a floured surface. Dough being kneaded by hand on a lightly floured work surface. Divide the dough into 4 uniform pieces and shape each into a ball. Dough divided into four equal parts on a lightly floured work surface. Using a lightly floured rolling pin, roll each ball of dough into a circle that's about 1/4- to 1/2-inch thick. Make a depression in the center of each round of dough (it will puff up while frying). Piece of dough being rolled out to a circle on a floured work surface. Carefully slide 1 or 2 pieces of dough into the hot oil. Fry for about 1 to 2 minutes on each side. Remove the fried dough to paper towels to drain." 
 
-    } 
+ Seeds
+    },
+
+    {
+
+        "title": "Sandwich Bread",
+
+        "ingredients": "instant yeast, warm water, granulated sugar, salt, unsalted butter, all-purpose flour",
+        
+        "description": "In the bowl of a mixer, stir to dissolve the yeast in the warm water, and let sit for 5 minutes. Add the remaining water, sugar, salt, room temperature butter, add flour and stir to combine. Using a dough hook, mix on low speed and gradually add the remaining flour until the dough is soft and tacky, but not sticky. Continue to knead until a soft ball of dough forms and clears the sides of the bowl, about 7 to 10 minutes. Place the dough in a lightly greased bowl and turn it over so it is completely coated. Cover with plastic wrap and set in a draft-free place to rise until doubled in size, about 45 minutes to 1 hour. Turn the dough out onto a clean, lightly floured surface. Gently press it all over to remove any air pockets. Divide the dough in two and, working with one piece at a time, gently pat it into a 9x12-inch rectangle. Roll up the rectangle, starting on the short end, into a very tight cylinder. Pinch to seal the seams and the ends, tuck the ends of the roll until the bread, and place into greased 9-inch loaf pans. Cover the loaves loosely and place in a draft-free area until doubled in size, 30 to 45 minutes. Position an oven rack on the lowest setting and preheat the oven to 400 degrees F. Brush the loaves with some of the melted butter. Bake the loaves for 30 to 35 minutes, rotating halfway through, until golden brown. Remove from the oven and immediately brush with more of the melted butter. Allow to cool for 10 minutes, then remove from the pans and cool completely before slicing. The bread can be stored in an airtight bread bag or wrapped tightly in plastic wrap at room temperature for up to 4 days. It can also be frozen for up to 1 month."
+    
+    },
+
+    {
+
+        "title": "Home-made pasta",
+        
+        "ingredients": "Egg, Salt, All Purpose Flour, Olive Oil",
+
+        "description": "Pour flour on a dry work surface. Make a small well in the center of the flour, making sure there is still a little flour at the lowest part. Add whisked eggs to the flour well, along with the olive oil and salt. Mix together pasta dough. Use a fork to gently fold in the flour from the outside of the well into the center, gently whisking the mixture as you go. Just guide the liquid back into the pasta dough mixture until all ingredients are combined. Knead pasta dough with hands. Once the mixture has all ingredients incorporated and you can hold the dough in your hands, its time to knead it. To do this, fold each corner of the dough to the center with your fingers and once it’s in the center, use the heel of your hand to push the dough into a ball. Continue turning the dough and kneading new corner pieces into the center for about 10 minutes, until the gluten binds and the pasta dough becomes smooth. Wrap the ball of pasta dough tightly with plastic wrap. Store dough in the fridge for at least 30 minutes. This step helps the dough dry out a little so it’s easier to roll and cut into pasta shapes. When it’s time to make pasta, unwrap the ball of refrigerated dough and dust it with flour. Cut the ball of pasta dough into 1” discs. Each disc will become a sheet of pasta. Each sheet of pasta will become a handful of noodles."
+
+    },
+
+    {
+        
+        "title": "Carbonara",
+
+        "ingredients": "fine salt, for the pasta water, plus more to taste as needed, large eggs, large egg yolks, freshly grated Parmesan cheese, freshly ground black pepper, more to taste, olive oil, diced pancetta, or guanciale or thick bacon, pasta, such as spaghetti, bucatini, or fettuccine",
+        
+        "description": "Add 4 quarts of water and 4 teaspoons of salt to a large pot and bring to a boil over high heat. Pot with water. In a medium bowl, whisk the eggs and egg yolks together; add the Parmesan cheese and black pepper and whisk until well blended. Set aside. Egg, cheese and black pepper mixture in a glass bowl, with a fork. Heat the olive oil in a deep sauté pan or Dutch oven over medium heat. Add the diced pancetta and cook for about 4 to 6 minutes, or until slightly crisp. Turn off burner. pancetta cooking in cast iron pan. Once the water reaches a boil, add the pasta to the boiling water and cook following the package instructions for al dente pasta. pasta cooking in water in large pot. Remove about 1 cup of the pasta water and set it aside. Drain the pasta in a colander. cooked pasta drained in colander with reserved pasta water in bowl. Add about 1/2 cup of the reserved hot pasta water to the pancetta and bring to a boil over medium-high heat. Add the drained pasta and continue to cook, stirring, for 1 minute. pancetta, pasta in cast iron pan. Gradually whisk about 1/4 cup of the reserved hot pasta water into the egg and Parmesan cheese mixture. egg mixture with some reserved pasta water in bowl with fork. Remove the pan from heat. Gradually add the egg and cheese mixture to the pasta, stirring and constantly tossing with tongs until the sauce is silky and clings to the pasta. Add more of the hot pasta water in order to thin the sauce, if needed. egg and cheese mixture stirred into pan with pancetta and pasta. Serve the pasta with extra Parmesan cheese and a generous grinding of black pepper."
+
+    },
+
+    {
+
+        "title": "French Toast",
+
+        "ingredients": "milk, large eggs, vanilla extract, ground cinnamon, salt to taste, bread, unsalted butter",
+
+        "description": "Whisk milk, eggs, vanilla, cinnamon, and salt together in a shallow bowl. Lightly butter a griddle and heat over medium-high heat. Dunk bread in the egg mixture, soaking both sides. Transfer to the hot skillet and cook until golden, 3 to 4 minutes per side. Serve hot."
+
+    },
+
+    {
+
+        "title": "Beef Stew",
+
+        "ingredients": "stewing beef, flour, garlic powder, salt, black pepper, olive oil, onion, beef broth, red wine optional, potatoes, carrots, celery, tomato paste, dried rosemary or sprig fresh, cornstarch, water, peas",
+
+        "description": "Combine flour, garlic powder and salt & pepper. Toss beef in flour mixture. Heat olive oil in a large Dutch oven or pot. Cook the beef and onions until browned. Add beef broth and red wine while scraping up any brown bits in the pan. Stir in all remaining ingredients except for peas, cornstarch and water. Reduce heat to medium low, cover and simmer 1 hour or until beef is tender. Mix equal parts cornstarch and water to create a slurry. Slowly add the slurry to the boiling stew to reach desired consistency. Stir in peas and simmer 5-10 minutes before serving . Season with salt & pepper to taste."
+
+    },
+
+    {
+
+        "title": "Roast Beef",
+
+        "ingredients": "round roast, extra-virgin olive oil, garlic, minced, chopped fresh rosemary, chopped fresh thyme leaves, kosher salt, freshly ground black pepper",
+
+        "description": "let roast sit uncovered on a wire rack set in a baking sheet in the refrigerator 1 hour, up to overnight. Preheat oven to 450°. In a small bowl, combine oil, garlic, rosemary, thyme, salt, and pepper. Rub all over roast. Place roast in roasting pan fitted with a roasting rack. Roast for 15 minutes, then reduce heat to 325° and roast 1 hours 45 minutes more for medium, or 2 hours for medium well done. Remove from oven and let rest 15 to 30 minutes before serving."
+
+    },
+
+    {
+
+        "title": "Beef Stroganoff",
+
+        "ingredients": "wide egg noodles, butter, thinly-sliced steak, fine sea salt and freshly-cracked black pepper, white onion, sliced mushrooms, garlic, dry white wine, beef stock, Worcestershire sauce, all-purpose flour, plain Greek yogurt, chopped fresh parsley (optional)",
+
+        "description": "Cook egg noodles in a large stockpot of generously-salted water until they are al dente then drain. As your pasta water is coming to a boil, melt butter in a large sauté pan over medium-high heat. Add the steak in a single layer, season with salt and pepper, and let it cook to get a good sear. Flip the steak, and cook on the other side until browned, another 2-3 minutes. Then remove steak from pan with a slotted spoon, transfer to a clean plate, and set aside. If your pan is not big enough to fit all of the steak in a single layer, cook half of the steak in butter. Add butter to the sauté pan. Once it has melted, add the onions and sauté for about 3 minutes. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft. Add garlic and sauté for 1 minute, stirring occasionally. Then add the white wine and deglaze the pan by using your cooking spoon to scrape the brown bits off the bottom of the pan. Let the mixture cook down for an additional 3 minutes. While the wine cooks down, whisk together the beef stock, Worcestershire sauce and flour until smooth in a separate bowl. Pour the beef stock mixture into the sauté pan, stir to combine, then let the mixture simmer for 5 minutes, stirring occasionally. Stir in the Greek yogurt and cooked steak until combined. Serve warm over egg noodles."
+
+    },
+
+    {
+
+        "title": "Baked Salmon",
+
+        "ingredients": "whole salmon fillet skin-on preferred, melted butter OR olive oil, cloves garlic minced, brown sugar, Italian seasoning, ground paprika, garlic powder, salt",
+
+        "description": "Heat oven to 375°F. Place a large piece of foil on rimmed baking sheet, place salmon fillet on top skin side down, pink side up. Crimp edges of foil around salmon. Combine melted butter and minced garlic. Brush half of mixture over salmon. Combine remaining ingredients in a small bowl, evenly sprinkle over salmon. Add remaining garlic butter. Bake salmon for 15-22 minutes, depending on preferred doneness. Once done, remove salmon from oven and rest for 5 minutes, then serve."
+
+    },
+
+    {
+
+        "title": "Hot Wings",
+
+        "ingredients": "Chicken wings separated at joints tips discarded, unsalted butter, hot pepper hot sauce, garlic powder, Salt",
+
+        "description": "Heat oven to 400 degrees F. Set a wire rack inside a large rimmed baking sheet. Season wings with salt. Spread out in one layer on wire rack. Bake until cooked through and crispy. Melt butter in a saucepan over medium heat. Remove saucepan from the heat, and then stir in hot sauce and garlic powder. Season with salt, to taste. Toss the baked chicken wings in the sauce and serve with celery."
+
+    },
+
+    {
+
+        "title": "Denver Scramble",
+
+        "ingredients": "butter or olive oil, diced ham or prosciutto, onion, bell pepper, egg beaten, salt, black pepper",
+        
+        "description": "In a large skillet over medium high heat. Add the onion, stir in the ham or prosciutto as well as the bell pepper. Add the eggs, season to taste with salt and pepper. Once the eggs start to turn white around the edges, stir the eggs to scramble. Continue to cook and stir until the eggs are cooked to your preference."
+        
+    },
+
+    {
+
+        "title": "Maghmour",
+
+        "ingredients": "fresh plum tomatoes cubed, cloves garlic chopped, onion sliced, chopped cilantro fresh only, black pepper, 7 spice, cinnamon powder, salt, chickpeas, baby okra fried, eggplant cubed and fried, tomato puree sauce, tomato paste, green bell pepper cubed, water, olive oil",
+
+        "description": "In a skillet, heat the olive oil and caramelized the sliced onions. Add the tomatoes, cilantro and garlic. Sauté for a few minute and then cover and simmer for about 5 minutes on medium-low heat. Add in the tomato paste, tomato puree sauce, salt, spice and water. Mix well and cover to simmer for another 5 minutes. Remove the tomato sauce from the heat and pour into a baking dish. Place the rest of the ingredients on top of the sauce, spreading them around even. Cover with aluminum foil and bake the dish in a preheated 375 degree oven for 30 minutes."
+
+    },
+
+    {
+        "title": "",
+        "ingredients": "",
+        "description": ""
+    }
 
 ] 
+
+
+
