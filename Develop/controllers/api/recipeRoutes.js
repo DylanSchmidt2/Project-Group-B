@@ -4,10 +4,11 @@ const sequelize = require('../../config/connection');
 const withAuth = require('../../utils/auth');
 
 ///Create recipe
-router.post('/', withAuth, (req, res) => {
+router.post('/', (req, res) => {
   Recipe.create({
     title: req.body.title,
     ingredients: req.body.ingredients,
+    instructions: req.body.instructions,
     user_id: req.session.user_id
   })
     .then(dbRecipeData => res.json(dbRecipeData))
@@ -63,4 +64,3 @@ router.delete('/:id', withAuth, async (req, res) => {
 //Save recipe
 
   module.exports = router;
-  
