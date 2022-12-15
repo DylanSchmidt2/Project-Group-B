@@ -10,7 +10,7 @@
     <title> COOK. FEAST. REPEAT!</title>
 </head>
 
-<body style= "background-image: url('/images/Collage.png');">
+<body >
     <header>
         <h1> COOK FEAST REPEAT!</h1>
         <h3> Welcome! We created this website so guests can browse through our collection of delicious recipes and find
@@ -18,9 +18,8 @@
             personalized touch. Our community is open to home cooks and professional chefs alike. Happy cooking, and
             more importantly, happy eating!</h3>
         {{#if logged_in}}
-        <nav>
-            <button class="btn" id="logout">Logout</button>
-        </nav>
+            <button type="submit" class="pure-button pure-button-primary" style="background-color: #6f1a07;">Sign
+            Out</button>
         {{/if}}
     </header>
     <main>
@@ -30,7 +29,7 @@
 
     </footer>
     {{#if logged_in}}
-    <script src="/Develop/public/js/logout.js"></script>
+    <script src="/js/logout.js"></script>
     {{/if}}
 
 </body>

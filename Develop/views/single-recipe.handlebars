@@ -1,0 +1,13 @@
+<h1>{{recipe.title}}</h1>
+
+      <h2>Ingredients:</h2>
+      <p>{{recipe.ingredients}}</p>
+
+      <h2>Description:</h2>
+      <p>{{recipe.description}}</p>
+   
+ 
+  {{#if loggedIn}}
+    <a href="/edit/{{recipe.id}}">Edit Recipe</a>
+  {{/if}}
+

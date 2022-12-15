@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const sequelize = require("../config/connection");
 const { Recipe, User } = require("../models");
+const db = require('../models');
 
 //Login 
 router.get("/login", (req, res) => {
@@ -61,7 +62,7 @@ router.get("/", (req, res) => {
   .then(dbRecipeData => {
     //console.log('dbRecipeData', dbRecipeData)
     const recipe = dbRecipeData.map(recipe => recipe.get({ plain: true }));
-    res.render('homepage', {
+    res.render('dashboard', {
         recipe,
         loggedIn: req.session.loggedIn
       });
@@ -71,5 +72,23 @@ router.get("/", (req, res) => {
     res.status(500).json(err);
   });
 });
+
+// router.get('/dashboard', (req, res) => {
+//   // get the recipes from the database
+//   db.Recipes.findAll()
+//     .then((recipes) => {
+//       // Render the dashboard view and pass the recipes to the template
+//       const recipe = recipes.map(recipe => recipe.get({ plain: true }));
+//       res.render('dashboard', {
+//         recipes,
+//         loggedIn: req.session.loggedIn
+//       });
+//     })
+//     .catch((error) => {
+//       // If there was an error, render the error page
+//       res.render('error', { error });
+//     });
+// });
+
 
 module.exports = router;

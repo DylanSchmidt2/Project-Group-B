@@ -34,3 +34,16 @@ form {
     color: white;
 }
 
+div{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+  }
