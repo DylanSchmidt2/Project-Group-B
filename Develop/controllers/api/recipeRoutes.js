@@ -8,7 +8,7 @@ router.post('/', (req, res) => {
   Recipe.create({
     title: req.body.title,
     ingredients: req.body.ingredients,
-    instructions: req.body.instructions,
+    description: req.body.description,
     user_id: req.session.user_id
   })
     .then(dbRecipeData => res.json(dbRecipeData))
