@@ -4,7 +4,7 @@ const newFormHandler = async (event) => {
     const title = document.querySelector('#title').value.trim();
     const ingredients = document.querySelector('#ingredients').value.trim();
     const description = document.querySelector('#description').value.trim();
-  
+  console.log(title)
     if (title && ingredients && description) {
       const response = await fetch(`/api/recipeRoutes`, {
         method: 'POST',
@@ -21,6 +21,11 @@ const newFormHandler = async (event) => {
       }
     }
   };
+
+  // Attach the newFormHandler function to the form's submit event
+const form = document.querySelector('#create-recipe-form');
+form.addEventListener('submit', newFormHandler);
+
 
 const delButtonHandler = async (event) => {
     if (event.target.hasAttribute('data-id')) {

@@ -48,8 +48,8 @@ router.get("/recipe/:id", (req, res) => {
     });
 });
 
-//GET all recipes
-router.get("/", (req, res) => {
+// GET all recipes
+router.get("/dashboard", (req, res) => {
   Recipe.findAll({
    // attributes: ["id", "title", "ingredients"],
     include: [
@@ -62,7 +62,7 @@ router.get("/", (req, res) => {
   .then(dbRecipeData => {
     //console.log('dbRecipeData', dbRecipeData)
     const recipe = dbRecipeData.map(recipe => recipe.get({ plain: true }));
-    res.render('all-recipes', {
+    res.render('dashboard', {
         recipe,
         loggedIn: req.session.loggedIn
       });
@@ -75,7 +75,7 @@ router.get("/", (req, res) => {
 
 // router.get('/dashboard', (req, res) => {
 //   // get the recipes from the database
-//   db.Recipes.findAll()
+//   Recipe.findAll()
 //     .then((recipes) => {
 //       // Render the dashboard view and pass the recipes to the template
 //       const recipe = recipes.map(recipe => recipe.get({ plain: true }));

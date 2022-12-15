@@ -1,17 +1,20 @@
 {{!-- Form for entering a recipe --}}
-    <form>
-      <li>  <label for="title">Title:</label><br>
-        <input type="text" id="title" name="title"><br>
-        </li>
-       <li><label for="ingredients">Ingredients:</label><br>
-        <input type="text" id="ingredients" name="ingredients"><br>
-        </li> 
-       <li> <label for="description">Description:</label><br>
-        <input type="description" name="description"></textarea><br>
-        </li>
-        <input type="submit" value="Submit">  
-{{!-- delete recipe button --}}
-         <button type="submit" class="pure-button pure-button-primary" style="background-color: #6f1a07;" data-id="{{id}}">Delete</button>
-    </form>
+<form id="create-recipe-form">
+  <ul>
+    <li> <label for="title">Title:</label><br>
+      <input type="text" id="title" name="title"><br>
+    </li>
+    <li><label for="ingredients">Ingredients:</label><br>
+      <input type="text" id="ingredients" name="ingredients"><br>
+    </li>
+    <li> <label for="description">Description:</label><br>
+      <input type="description" name="description"></textarea><br>
+    </li>
+  </ul>
+  <input type="submit" value="Submit">
+  {{!-- delete recipe button --}}
+  <button type="submit" class="pure-button pure-button-primary" style="background-color: #6f1a07;"
+    data-id="{{id}}">Delete</button>
+</form>
 
     <script src="/Develop/public/js/index.js"></script>
