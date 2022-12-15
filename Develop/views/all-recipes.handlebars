@@ -1,0 +1,14 @@
+{{#each recipe as |recipe| }}
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Ingredients</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>{{recipe.title}}</td>
+      <td>{{recipe.ingredients}}</td>
+      <td>{{recipe.description}}</td>
+    </tr>
+  </table>
+{{/each}}
