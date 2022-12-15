@@ -1,6 +1,7 @@
 body
 {
 background-size: cover;
+color: white;
 }
 
 h1 {
@@ -45,5 +46,5 @@ table {
   }
   
   th, td {
-    border: 1px solid black;
+    border: 1px solid white;
   }
