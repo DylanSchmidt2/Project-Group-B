@@ -11,19 +11,15 @@
 </head>
 
 <body style= "background-image: url('/images/Collage.png');">
-    <header>
+    <nav>
         <h1> COOK FEAST REPEAT!</h1>
-        <h3> Welcome! We created this website so guests can browse through our collection of delicious recipes and find
-            cooking inspiration. Additionally, guests can search for a single recipe using a unique ID and also input their own recipes. Our community is open to home cooks and professional chefs alike. Happy cooking, and
-            more importantly, happy eating!</h3>
-        {{#if logged_in}}
-            <button type="submit" class="logout" style="background-color: white;">Sign
-            Out</button>
-        {{/if}}
-
-        <a href="/dashboard">Dashboard</a>
-        <a href="/create">Create</a>
-    </header>
+        <button type="submit" class="pure-button pure-button-primary" style="background-color: #6f1a07;"><a href="/dashboard">Dashboard</a></button>
+        <button type="submit" class="pure-button pure-button-primary" style="background-color: #6f1a07;"><a href="/create">Add Recipe</a></button>
+    </nav>
+    <h3> Welcome! We created this website so guests can browse through our collection of delicious recipes and find
+  cooking inspiration. Additionally, guests can search for a single recipe using a unique ID and also input their own
+  recipes. Our community is open to home cooks and professional chefs alike. Happy cooking, and
+  more importantly, happy eating!</h3>
     <main>
         {{{ body }}}
     </main>

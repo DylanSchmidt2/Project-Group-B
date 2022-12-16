@@ -4,12 +4,21 @@ background-size: cover;
 color: white;
 }
 
-h1 {
+nav {
+
+
+}
+
+nav h1 {
     margin-left: 5%;
     font-size: 50px;
     color: white;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
+
+nav button {
+    float: right;
+  }
 
 h3 {
     display: flex;
@@ -50,5 +59,9 @@ table {
   }
 
   a{
+    display: flex;
     color: white
+    
   }
+
+
