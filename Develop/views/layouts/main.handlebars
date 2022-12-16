@@ -17,9 +17,12 @@
             cooking inspiration. Additionally, guests can search for a single recipe using a unique ID and also input their own recipes. Our community is open to home cooks and professional chefs alike. Happy cooking, and
             more importantly, happy eating!</h3>
         {{#if logged_in}}
-            <button type="submit" class="pure-button pure-button-primary" "logout" style="background-color: white;">Sign
+            <button type="submit" class="logout" style="background-color: white;">Sign
             Out</button>
         {{/if}}
+
+        <a href="/dashboard">Dashboard</a>
+        <a href="/create">Create</a>
     </header>
     <main>
         {{{ body }}}
@@ -27,9 +30,9 @@
     <footer>
 
     </footer>
-    {{#if logged_in}}
+    {{!-- {{#if logged_in}} --}}
     <script src="/js/logout.js"></script>
-    {{/if}}
+    {{!-- {{/if}} --}}
 
 </body>
 

@@ -19,7 +19,7 @@ router.get("/recipe/:id", (req, res) => {
     where: {
       id: req.params.id,
     },
-    attributes: ["id", "title", "ingredients"],
+    // attributes: ["id", "title", "ingredients"],
     include: [
       {
         model: User,
@@ -35,7 +35,7 @@ router.get("/recipe/:id", (req, res) => {
 
       // serialize the data
       const recipe = dbRecipeData.get({ plain: true });
-
+console.log('recipe', recipe)
       // pass data to template
       res.render("single-recipe", {
         recipe,
@@ -73,22 +73,22 @@ router.get("/dashboard", (req, res) => {
   });
 });
 
-// router.get('/dashboard', (req, res) => {
-//   // get the recipes from the database
-//   Recipe.findAll()
-//     .then((recipes) => {
-//       // Render the dashboard view and pass the recipes to the template
-//       const recipe = recipes.map(recipe => recipe.get({ plain: true }));
-//       res.render('dashboard', {
-//         recipes,
-//         loggedIn: req.session.loggedIn
-//       });
-//     })
-//     .catch((error) => {
-//       // If there was an error, render the error page
-//       res.render('error', { error });
-//     });
-// });
+router.get('/', (req, res) => {
+
+  res.render('homepage', {
+    loggedIn: req.session.loggedIn
+  });
+
+});
+
+router.get('/create', (req, res) => {
+
+  res.render('create-recipe', {
+    loggedIn: req.session.loggedIn
+  });
+
+});
+
 
 
 module.exports = router;
